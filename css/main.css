@@ -1,0 +1,242 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+nav {
+  height: 60px;
+  width: 100vw;
+  background-color: peru;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+}
+nav .main {
+  margin-left: 120px;
+}
+nav .birinci {
+  background: none;
+  border: none;
+  color: white;
+}
+nav .primary .sag {
+  margin-right: 120px;
+  margin-left: 10px;
+}
+nav .icon {
+  font-size: 22px;
+  display: none;
+}
+@media only screen and (max-width: 400px) {
+  nav .icon {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 400px) {
+  .sol {
+    display: none;
+  }
+  .sag {
+    display: none;
+  }
+}
+.first_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: deeppink;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.first_container button {
+  width: 150px;
+  border-radius: 40px;
+  margin-top: 40px;
+  border: none;
+  background-color: rgb(28, 255, 20);
+  color: white;
+  height: 60px;
+}
+@media only screen and (max-width: 400px) {
+  .first_container button {
+    width: 175px;
+  }
+}
+.first_container h1 {
+  font-size: 80px;
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+  .first_container h1 {
+    font-size: 40px;
+  }
+}
+.first_container p {
+  font-size: 50px;
+  color: white;
+}
+@media only screen and (max-width: 400px) {
+  .first_container p {
+    font-size: 25px;
+  }
+}
+
+.second_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.second_container .metin {
+  width: 400px;
+  height: 400px;
+  color: dimgray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+@media only screen and (max-width: 400px) {
+  .second_container .metin {
+    width: 400px;
+    height: 400px;
+  }
+}
+.second_container .metin h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.second_container .metin p {
+  font-size: 20px;
+}
+.second_container .sekil {
+  width: 400px;
+  height: 400px;
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 400px) {
+  .second_container .sekil {
+    width: 300px;
+    height: 300px;
+    margin-top: 20px;
+  }
+}
+.second_container .sekil1 {
+  background-image: url(https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1Rkpo07-f9LCpJ2kUSYG6jCAaaKTM5SRkZCeTgDn6uOyic);
+  background-size: cover;
+}
+@media only screen and (max-width: 400px) {
+  .second_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+.third_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.third_container .metin {
+  width: 400px;
+  height: 400px;
+  color: dimgray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.third_container .metin h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.third_container .metin p {
+  font-size: 20px;
+}
+.third_container .sekil {
+  width: 400px;
+  height: 400px;
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 400px) {
+  .third_container .sekil {
+    width: 300px;
+    height: 300px;
+  }
+}
+.third_container .sekil2 {
+  background-image: url(https://qadinla.com/uploads/posts/2016-11/1478708794_rengli-qus.jpg);
+  background-size: cover;
+}
+@media only screen and (max-width: 400px) {
+  .third_container {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+.fourth_container {
+  width: 100vw;
+  height: 100vh;
+  background-color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-image: url();
+}
+.fourth_container .metin {
+  width: 400px;
+  height: 400px;
+  color: dimgray;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+.fourth_container .metin h2 {
+  font-size: 55px;
+  margin-bottom: 20px;
+}
+.fourth_container .metin p {
+  font-size: 20px;
+}
+.fourth_container .sekil {
+  width: 400px;
+  height: 400px;
+  background-color: darkgoldenrod;
+  border-radius: 50%;
+}
+@media only screen and (max-width: 400px) {
+  .fourth_container .sekil {
+    width: 300px;
+    height: 300px;
+  }
+}
+.fourth_container .sekil3 {
+  background-image: url(https://upload.az/foto/arxiv/1353501161_ancibulbul1.jpg);
+}
+@media only screen and (max-width: 400px) {
+  .fourth_container {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+}
+
+footer {
+  width: 100vw;
+  height: 100px;
+  background-color: black;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}/*# sourceMappingURL=main.css.map */

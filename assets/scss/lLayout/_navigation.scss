@@ -1,0 +1,44 @@
+
+    nav{
+        height: 60px;
+        width: 100vw;
+        background-color: peru;
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        position: fixed;
+        .main{
+            margin-left: 120px;
+        }
+        .birinci {
+            background: none;
+            border: none;
+            color: white;
+        }
+        .primary {
+            .sag{
+                margin-right: 120px;
+                margin-left: 10px;
+            }
+        }
+        .icon {
+            font-size: 22px;
+            display: none;
+            @media only screen and (max-width: 400px){
+                display: block;
+            }
+        }
+        
+        
+    }
+    @media only screen and (max-width: 400px) {
+        
+        .sol{
+            display: none;
+        }
+        .sag {
+            display: none;
+        }
+      }
+      

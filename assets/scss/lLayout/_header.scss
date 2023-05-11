@@ -1,0 +1,192 @@
+.first_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: deeppink;
+    padding-top: 60px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    button {
+        width: 150px;
+        border-radius: 40px;
+        margin-top: 40px;
+        border: none;
+        background-color: rgb(28, 255, 20);
+        color: white;
+        height: 60px;
+        @media only screen and (max-width: 400px) {
+            width: 175px;
+
+        }
+    }
+    h1 {
+        font-size: 80px;
+        color: white;
+        @media only screen and (max-width: 400px) {
+            font-size: 40px;
+            
+        }
+    }
+    p {
+        font-size: 50px;
+        color: white;
+        @media only screen and (max-width: 400px) {
+            font-size: 25px;
+            
+        }
+    }
+
+}
+.second_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    .metin{
+        width: 400px;
+        height: 400px;
+        color: dimgray;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        @media only screen and (max-width: 400px) {
+            width: 400px;
+            height: 400px;
+            
+        }
+        h2{
+            font-size: 55px;
+            margin-bottom: 20px;
+          
+        }
+        p {
+            font-size: 20px;
+          
+        }
+    }
+    .sekil{
+        width: 400px;
+        height: 400px;
+        background-color: darkgoldenrod;
+        border-radius: 50%;
+        @media only screen and (max-width: 400px) {
+            width: 300px;
+            height: 300px; 
+            margin-top: 20px;
+
+            
+        }
+    }
+    .sekil1{
+        background-image: url(https://i.mycdn.me/i?r=AzEPZsRbOZEKgBhR0XGMT1Rkpo07-f9LCpJ2kUSYG6jCAaaKTM5SRkZCeTgDn6uOyic);
+        background-size: cover;
+    }
+    @media only screen and (max-width: 400px) {
+    display: flex;
+    flex-direction: column-reverse;
+        
+      }
+    
+   
+    
+}
+.third_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+    .metin{
+        width: 400px;
+        height: 400px;
+        color: dimgray;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        h2{
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .sekil{
+        width: 400px;
+        height: 400px;
+        background-color: darkgoldenrod;
+        border-radius: 50%;
+        @media only screen and (max-width: 400px) {
+            width: 300px;
+            height: 300px; 
+
+            
+        }
+    }
+    .sekil2{
+        background-image: url(https://qadinla.com/uploads/posts/2016-11/1478708794_rengli-qus.jpg);
+        background-size: cover;
+    }
+    @media only screen and (max-width: 400px) {
+        display: flex;
+        flex-direction: column;
+            
+          }
+    
+
+}
+    
+.fourth_container{
+    width: 100vw;
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-image: url();
+    .metin{
+        width: 400px;
+        height: 400px;
+        color: dimgray;
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        h2{
+            font-size: 55px;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 20px;
+        }
+    }
+    .sekil{
+        width: 400px;
+        height: 400px;
+        background-color: darkgoldenrod;
+        border-radius: 50%;
+        @media only screen and (max-width: 400px) {
+            width: 300px;
+            height: 300px; 
+
+            
+        }
+    }
+    .sekil3{
+        background-image: url(https://upload.az/foto/arxiv/1353501161_ancibulbul1.jpg);
+    }
+    @media only screen and (max-width: 400px) {
+        display: flex;
+        flex-direction: column-reverse;
+            
+          }
+    
+
+}
+
+  
